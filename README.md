@@ -1,4 +1,1 @@
-gun
-===
-
-Show files not committed to git
+This is 'gun', a simple shell utility which scans directories for files not committed to an existing, corresponding git repository. 'gun' stands for 'git uncommitted'. If called without an arg, it starts searching at cwd; otherwise it interprets the arg as a path spec, and if it isn't, it falls back to cwd again. Its output are the names of uncommitted, deleted or un-added files, resp., in the folder specified and any of its subfolders.

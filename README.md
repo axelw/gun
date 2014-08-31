@@ -1,4 +1,4 @@
 gun
 ===
 
-Show file not committed to git
+Show files not committed to git
